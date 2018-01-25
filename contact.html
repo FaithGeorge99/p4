@@ -27,16 +27,21 @@
 	</div>
 	<div> <img src="LCL_NUTRILITE_EXP_IMG_5.jpg">
 	</div>
+			<form>
 	<div>
-		<form>
 			<label for="firstName">First Name</label>
 			<input type="text" name="firstName" placeholder="Anne">
 			<label for="last Name">Last Name</label>
 			<input type="text" name="lastName" placeholder="Taylor"><br>
-		</form>
-	</div>
+	</div></form>
+	<label> Interest</label><br>
+	<select name="Interests">
+		<option value="magazine">Magazines</option>
+		<option value="books">Books</option>
+		<option value="health">Your Health</option>
+		</select><br>
 
-	<label> Interest</label>
+	<label> Transportation</label>
 	<select name="Transportation">
   			<option>Bike</option>
   			<option>Car</option><option>Transit</option>
@@ -49,12 +54,13 @@
 		<input type="checkbox" name="income" value="15-20K">15-20K<br>
 		<input type="checkbox" name="income" value="+25K">+25K<br>
 	</div>
-
+			<form>
 	<div>
 		<input type="reset" value="Reset">
-		<input type="send" value="Send">
+		<input type=”submit” name=”submit” value=Send>
 	</div>
-	<footer><a href="index.html">Home</a>
+	</form>
+	<footer><a href="index.html">Home</a><br>
 		<a href="contact.html">Contact</a>
 	</footer>
 </body>
